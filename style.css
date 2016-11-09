@@ -1,0 +1,94 @@
+/* CSS */
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Alex Brush', cursive; */
+
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Quicksand' , sans-serif;
+	font-size: 18px;
+	color: #3e3e3e;
+
+}
+
+.background {
+	background: url(images/Oriental_bg.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: 100%;
+
+}
+
+
+.Vcard {
+	border: 1px solid black;
+	opacity: 0.8;
+	background-color: #f6e7c1;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	width: 1100px;
+	height: 840px;
+	padding: 30px;
+	margin-top: 40px;
+
+}
+
+.Vcard__el--fp {
+	padding-top: 25px;
+}
+
+.Dock {
+	background: url(images/Bg_haut.png) no-repeat right top;
+	width: auto;
+	height: auto;
+	background-size: 45%;
+}
+
+
+.Vcard h2 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 32px;
+	color: #3e3e3e;
+	opacity: 1;
+	padding-bottom: 10px;
+}
+.Vcard span {
+	font-family: 'Alex Brush', cursive;
+	font-size: 28px;
+}
+
+.social {
+	float: right;
+	padding-right: 100px;
+	padding-bottom: 10px;
+
+}
+.social__el {
+	float: left;
+	margin-right: 20px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.social__el a {
+	display: block;
+	height: 80px;
+	width: 80px;
+}
+.social__el--cv a{
+	background: url(images/cv.png) no-repeat center center;
+}
+.social__el--facebook a{
+	background: url(images/facebook.png) no-repeat center center;
+}
+.social__el--twitter a{
+	background: url(images/twitter.png) no-repeat center center;
+}
+.social__el--pinterest a{
+	background: url(images/pinterest.png) no-repeat center center;
+}
